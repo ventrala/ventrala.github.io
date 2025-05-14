@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', serif; /* Tipografía seria */
+    background-color: #f0f0f0; /* Fondo gris claro, puedes ajustarlo */
+    color: #333; /* Color de texto oscuro para seriedad */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00a2ff; /* Fondo de encabezado más oscuro */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #006fd9; /* Fondo blanco para el contenido principal */
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #00a2ff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
